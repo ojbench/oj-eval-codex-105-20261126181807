@@ -12,6 +12,6 @@ previous expectations. All transitions go to smaller states, so induction
 establishes that each computed expectation, including the answer `E[n]`,
 is correct. Complexity is O(n) time and O(1) auxiliary space.
 
-Build with `cmake . && make`. Run `python3 tests/verify.py ./code` to compare
+Build with `make`. Run `python3 tests/verify.py ./code` to compare
 all 210 valid inputs against an exact rational probability model that
 propagates outcomes day by day. The sample `3 3` produces `1.83`.
